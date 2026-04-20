@@ -1,6 +1,6 @@
-# Self-Pruning Neural Network (CIFAR-10)
+# Self-Pruning Neural Network
 
-Minimal PyTorch implementation of a feedforward network where each weight is paired with a learnable gate, enabling pruning behavior during training.
+> A minimal, efficient implementation of a self-pruning neural network using learnable gating and L1 sparsity regularization.
 
 ## What it does
 
