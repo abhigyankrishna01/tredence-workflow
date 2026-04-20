@@ -32,6 +32,14 @@ During training:
 
 Thus, pruning is learned, not manually applied.
 
+## Results
+
+| Lambda | Accuracy | Sparsity |
+|--------|---------|----------|
+| 0.0001 | 45.81% | 66.15% |
+| 0.001  | 42.40% | 99.14% |
+| 0.01   | 35.51% | 99.84% |
+
 ## Result Analysis
 
 - At low λ (0.0001), the model retains more connections, resulting in higher accuracy but moderate sparsity.
@@ -51,6 +59,7 @@ This implementation focuses on correctness, interpretability, and rapid experime
 ## Run
 
 ```bash
+pip install -r requirements.txt
 python main.py
 ```
 
